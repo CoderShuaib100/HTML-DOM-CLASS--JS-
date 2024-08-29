@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- creating a form -->
+     <h1 id="heading1">ACCOUNT SIGN-IN</h1>
+    <fieldset id="field">
+     <form id="form-host" onsubmit="validation(event)">
+            <label for="email-box" >Email:</label>
+            <input class = "inputs" type="text" id="email-box" name="email">
+            <br>
+            <br>
+            <label for="password-box" >Password:</label>
+            <input class = "inputs" type="password" id="password-box" name="password" minlength="8">
+            <br>
+            <br>
+            <button id="sub-bt" type="submit">SIGN-IN</button>
+     </form>
+    </fieldset>
+
+    <!-- creating a msg div -->
+    <div id="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

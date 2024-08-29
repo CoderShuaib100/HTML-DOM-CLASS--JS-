@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/f6/4c/59/f64c59febd4dca0c078b8f7b3e0a4553.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading1{
+    color: gold;
+    text-shadow: 1px 1px 5px black;
+    font-size: 40x;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+#form-host{
+    padding: 5px;
+    color: yellow;
+    font-size: 20px;
+}
+
+#field{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.inputs{
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 2px solid gold;
+    border-radius: 5px;
+    transition: border 0.2s,border-radius 0.2s;
+    color: white;
+    text-shadow: 1px 1px 2px  gold;
+}
+
+.inputs:hover{
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+#sub-bt{
+    background-color: green;
+    color: gold;
+    font-weight: bolder;
+    border: 3px solid gold;
+    border-radius: 5px;
+    transition: font-size 0.5s;
+}
+
+#sub-bt:hover{
+    font-size: 20px;
+}
+
+#message{
+    font-size: 20px;
+    font-weight: bolder;
+}
